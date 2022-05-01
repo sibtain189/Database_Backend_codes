@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans 
+
+	xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    https://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ 	<bean id = "c"  class="com.masai.Circle">
+ 	
+ 	<constructor-arg value="5"></constructor-arg>
+ 	
+ 	</bean>
+ 
+ 	<bean id = "s" class="com.masai.Square">
+ 	
+ 	<property name="s" value="10"></property>
+ 	
+ 	</bean>
+ 	
+ 	<bean id="t" class="com.masai.Traingle">
+ 	<property name="t" value="50"></property>
+ 	
+ 	</bean>
+ 
+ 
+</beans>
